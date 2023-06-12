@@ -40,24 +40,3 @@ void Warlock::introduce() const
 {
     std::cout<<this->getName()<<": I am "<<this->getName()<<", "<<this->getTitle()<<"!"<<std::endl;
 }
-
-// void Warlock::learnSpell(ASpell *sp)
-// {
-//     if(sp)
-//         arr.insert(std::pair<std::string,ASpell *>(sp->getName(),sp));
-// }
-// void Warlock::forgetSpell(std::string name_sp)
-// {
-//     std::map<std::string ,ASpell *>::iterator it = arr.find(name_sp);
-//     if(it != arr.end())
-//         arr.erase(it);
-// }
-// void Warlock::launchSpell(std::string name_sp,ATarget const &tg)
-// {
-//     std::map<std::string ,ASpell *>::iterator it = arr.find(name_sp);
-//     if(it != arr.end())
-//     {
-//         ASpell *sp = it->second;
-//         sp->launch(tg);
-//     }
-// }
